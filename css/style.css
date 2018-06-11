@@ -29,16 +29,17 @@ h2{
 	margin-top: 230px;}
 
 .operation input[type="radio"]:checked+label{}
-input[type="radio"]{display:nome;}
+input[type="radio"]{display:none;}
 label{background:none;
 border: 2px solid #fff;
 cursor: pointer;
 height: 35px;
 margin: 0;
 vertical-align: middle;
-width: 35px; }
+width: 35px;}
+
 input[type="radio"]:checked+label{background:#2c3e50; }
 input[type="radio"]:hover+label{background:#34495e;transition: .1s;}
 
 .operations{width:180px;}
-.operation{padding: :0;}
+.operation{padding: 0;}

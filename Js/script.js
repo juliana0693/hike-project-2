@@ -1,4 +1,3 @@
-document
 document.getElementById("calculate-button").onclick = function() {
 //Coletar números dentro das caixas de input
 let elem1 = document.getElementById( 'elem-1');

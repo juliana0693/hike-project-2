@@ -28,7 +28,8 @@ h2{
 .calculator{
 	margin-top: 230px;}
 
-input[type="radio"]{display: :nome;}
+.operation input[type="radio"]:checked+label{}
+input[type="radio"]{display:nome;}
 label{background:none;
 border: 2px solid #fff;
 cursor: pointer;
